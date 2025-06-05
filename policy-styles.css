@@ -11,12 +11,12 @@ body {
 main {
   flex-direction: column;
   gap: 40px;
-  padding: 60px 20px 80px;
+  padding: 30px 20px 40px; 
+  margin: 20px auto 40px; 
   background: #121212;
   border-radius: 16px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
   max-width: 900px;
-  margin: 40px auto 80px;
   color: #ddd;
 }
 
@@ -37,11 +37,11 @@ main {
 }
 
 .left-content h1.main-title {
-  font-size: clamp(48px, 6vw, 80px);
+  font-size: clamp(36px, 5vw, 60px); 
   font-weight: 900;
-  margin-bottom: 30px;
+  margin-bottom: 20px;         
   text-align: center;
-  letter-spacing: -2px;
+  letter-spacing: -1.5px;
 }
 
 .left-content h2 {
@@ -114,11 +114,10 @@ footer {
   font-weight: 400;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   main {
-    margin: 20px 15px 100px;
-    padding: 40px 20px 60px;
+    margin: 15px 15px 80px;
+    padding: 30px 20px 50px;
   }
   header {
     flex-direction: column;
@@ -139,6 +138,7 @@ footer {
     height: 40px;
   }
   main {
-    padding: 30px 15px 50px;
+    padding: 25px 15px 40px;
+    margin: 15px auto 70px;
   }
 }
