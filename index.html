@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Orizn - Coming Soon</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header role="banner" aria-label="Site Header">
+      <div class="logo">
+        <!-- <div class="logo-icon"></div> -->
+        <div class="logo-text">Orizn</div>
+      </div>
+      <div class="contact-info">Say hello! info@orizn.com</div>
+    </header>
+
+    <main role="main">
+      <div class="left-content">
+        <h1 class="main-title">We Are<br />Coming Soon</h1>
+        <div class="signup-section">
+          <h2 class="signup-title">Get notified when we launch</h2>
+          <form name="notify" class="signup-form" netlify onsubmit="handleSubmit(event)">
+            <input type="hidden" name="form-name" value="notify" />
+            <input type="email" name="email" class="email-input" placeholder="Enter your email address" required />
+            <button type="submit" class="notify-btn">Notify Me</button>
+          </form>
+          <p class="signup-note">We'll send you an email when we're ready to launch.</p>
+        </div>
+      </div>
+
+      <div class="right-content">
+        <p class="description">
+          We're strong believers that the best solutions come from gathering new insights and pushing conventional boundaries.
+        </p>
+        <div class="features">
+          <div class="feature-item"><div class="feature-icon"></div><span>Innovative Solutions</span></div>
+          <div class="feature-item"><div class="feature-icon"></div><span>Modern Technology</span></div>
+          <div class="feature-item"><div class="feature-icon"></div><span>User-Centered Design</span></div>
+          <div class="feature-item"><div class="feature-icon"></div><span>Quality First</span></div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
